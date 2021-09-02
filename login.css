@@ -1,0 +1,44 @@
+/* Damian Seals  */
+/* Web Project 2 */
+#sign-in {
+    width: 95%;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    box-sizing: border-box;
+}
+input {
+    font-size: 32px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textbox {
+    border: 2px inset lightgray;
+}
+.submit {
+    color: white;
+    background-color: forestgreen;
+    border: none;
+}
+.submit:hover {
+    background-color: rgb(28, 112, 28);
+}
+#invalid {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
